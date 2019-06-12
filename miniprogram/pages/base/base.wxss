@@ -1,0 +1,39 @@
+/* pages/base/base.wxss */
+.movie{
+  height:300rpx;
+  display:flex;
+  padding:10px;
+  border-bottom: 1px solid rgb(235, 233, 233);
+}
+.movie-img {
+  width:200rpx;
+  height:100%;
+  margin-right: 20px;
+}
+.movie-title {
+  font-size:18px;
+  font-weight: 900;
+  color:#666;
+}
+.movie-rating {
+  color:#faaf00;
+  font-size:12px;
+}
+.movie-casts {
+  font-size:12px;
+  color:#666;
+}
+.movie-year {
+  font-size:12px;
+  color:gray;
+}
+.movie-comment {
+  background-color: #e54847;
+  color: #fff;
+  font-size:26rpx;
+  margin-top:200rpx;
+  height:60rpx;
+}
+.movie-info {
+  flex:1;
+}

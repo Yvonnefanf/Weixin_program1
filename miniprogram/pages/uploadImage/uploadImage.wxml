@@ -1,0 +1,3 @@
+<!--pages/uploadImage/uploadImage.wxml-->
+<text>pages/uploadImage/uploadImage.wxml</text>
+<view bindtap="uploadImage">上传图片</view>

@@ -1,0 +1,44 @@
+{
+  "pages": [
+    "pages/base/base",
+    "pages/cloud/cloud",
+    "pages/uploadImage/uploadImage",
+    "pages/comments/comments",
+    "pages/profile/profile"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "Yvonne QuickStart",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/base/base",
+      "text": "Base",
+      "iconPath": "images/base.png",
+      "selectedIconPath": "images/base-active.png"
+    },
+    {
+      "pagePath": "pages/cloud/cloud",
+      "text": "cloud",
+      "iconPath": "images/transanction.png",
+      "selectedIconPath": "images/transanction-active.png"
+    },
+    {
+      "pagePath": "pages/uploadImage/uploadImage",
+      "text": "upload",
+      "iconPath": "images/transanction.png",
+      "selectedIconPath": "images/transanction-active.png"
+    },
+    {
+      "pagePath": "pages/profile/profile",
+      "text": "我的",
+      "iconPath": "images/transanction.png",
+      "selectedIconPath": "images/transanction-active.png"
+    }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

@@ -1,0 +1,11 @@
+<button bindtap="InsertData">insert data</button>
+<button bindtap="Update">update</button>
+<button bindtap="sum">调用云函数sum</button>
+<button bindtap="getOpenId">用户信息</button>
+<button bindtap="bathDelete">批量删除数据</button>
+<button bindtap="upload">上传图片</button>
+<button bindtap="getfile">文件展示</button>
+<block wx:for="{{images}}" wx:key="{{item.fileID}}">
+<image src="{{item.fileID}}"></image>
+<button size="mini" data-fileid="{{item.fileID}}" bindtap="downloadFile">文件下载</button>
+</block>
